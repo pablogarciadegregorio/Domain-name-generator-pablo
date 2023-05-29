@@ -43,16 +43,16 @@ for (let i = 0; i < pronoun.length; i++) {
 
 
 
-// DOMAIN SIN EL PUNTO
-var compDomain = domain[2].substring(1,domain.length);
+// PRUEBA EN 1 CASO
+// // var compDomain = domain[2].substring(1,domain.length);
 
-// NOUN SOLO CON EL DOMINIO
-var compNoun = noun[5].substring((noun[5].length - (domain[2].length ) + 1), noun[5].length+1);
+// // // NOUN SOLO CON EL DOMINIO
+// // var compNoun = noun[5].substring((noun[5].length - (domain[2].length ) + 1), noun[5].length+1);
 
-if (compDomain = compNoun) {
-    console.log(noun[5].substring(0, noun[5].length - domain[2].length +1) + domain[2]);
+// // if (compDomain = compNoun) {
+// //     console.log(noun[5].substring(0, noun[5].length - domain[2].length +1) + domain[2]);
     
-}
+// // }
 
 
 
